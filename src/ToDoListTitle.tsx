@@ -37,9 +37,10 @@ class ToDoListTitle extends React.Component<IProps, IState> {
     deleteTodolist = (): void => {
         this.props.deleteTodolist(this.props.todolistId);
     };
-    render = () =><div>
+    render = () =><div className="todoList-header__title">
         {this.state.editMode? <input onBlur={this.deactivateEditMode} autoFocus={true} value={this.state.title} onChange={this.onTitleChanged}/>:
-        <h3 onDoubleClick={this.activateEditMode} className="todoList-header__title">{this.props.title}<button onClick={this.deleteTodolist}>X</button></h3>}
+        <><h3 onDoubleClick={this.activateEditMode}>{this.props.title}</h3>
+            <button className="buttonDelete" onClick={this.deleteTodolist}>X</button></>}
     </div>
 }
 

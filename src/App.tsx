@@ -31,14 +31,14 @@ class App extends React.Component <IProps & IMapStateProps & IMapDispatchProps> 
             .todolists
             .map(td => <ToDolist key={td.id} id={td.id} title={td.title} tasks={td.tasks}/>);
         return (
-            <>
+            <div className="App">
                 <div>
                     <AddNewItemForm addItem={this.props.addTodolist}/>
                 </div>
-                <div className="App">
+                <div className="todoLists">
                     {todolists}
                 </div>
-            </>)
+            </div>)
     };
 }
 

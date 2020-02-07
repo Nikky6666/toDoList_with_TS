@@ -30,14 +30,14 @@ class ToDoListFooter extends React.Component<IProps, IState> {
 
         return (
             <div className="todoList-footer">
-                {!this.state.isHidden && <div>
+                {!this.state.isHidden && <div className="todoList-footer__buttons">
                 <button onClick={this.onAllFilterClick} className={classForAll}>All</button>
                 <button onClick={ this.onCompletedFilterClick} className={classForCompleted}>Completed</button>
                 <button onClick={ this.onActiveFilterClick} className={classForActive}>Active</button>
                 </div>
                }
-                {!this.state.isHidden && <span onClick={this.onHideFiltersClick}>hide</span>}
-                {this.state.isHidden && <span onClick={this.onShowFiltersClick}>show</span>}
+                {!this.state.isHidden && <div className="todoList-footer__show-hide" onClick={this.onHideFiltersClick}>hide</div>}
+                {this.state.isHidden && <div className="todoList-footer__show-hide"  onClick={this.onShowFiltersClick}>show</div>}
             </div>
         );
     }

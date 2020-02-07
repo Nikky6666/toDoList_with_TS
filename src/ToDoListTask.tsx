@@ -59,8 +59,8 @@ class ToDoListTask extends React.Component<IProps, IState> {
                 default: priority="low"; break;
             }
         return (<div className={classForTask}>
-            <input type="checkbox" checked={this.props.task.status===2} onChange={this.onIsDoneChanged} />
-                {this.state.editMode ? <input
+            <input className="todoList-task__checkbox" type="checkbox" checked={this.props.task.status===2} onChange={this.onIsDoneChanged} />
+                {this.state.editMode ? <input className="todoList-task_input"
                                         onBlur={this.deactivateEditMode}
                                         autoFocus={true}
                                         value={this.state.title}
@@ -68,7 +68,7 @@ class ToDoListTask extends React.Component<IProps, IState> {
                     /> :
                     <span onClick={this.activateEditMode}>{this.props.task.title}, priority: {priority}</span>
                 }
-                <button onClick={()=> {this.props.deleteTask(this.props.task.id)}}>X</button>
+                <button className="buttonDelete"  onClick={()=> {this.props.deleteTask(this.props.task.id)}}>X</button>
         </div>
         );
     }

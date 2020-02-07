@@ -1,4 +1,19 @@
-.App {
+.newItemForm button,  .buttonDelete, .todoList-footer__buttons button, .todoList-task_input{
+  outline: none;
+  background-color: #f5c09a;
+  text-align: center;
+  border: 1px solid #9a5088;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.App{
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(to top right, #fff5fa, #ffadd0, blue);
+}
+.todoLists {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,21 +23,114 @@
   width: 300px;
   margin: 0 auto;
 }
+.todoList-header__title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.todoList-header__title h3{
+  width: 80%;
+  text-align: center;
+  color: #18004f
+}
+ .buttonDelete{
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  background-color: #9a5088;
+  border-color: #6e0c80;
+  color: white;
+}
+.todoList-task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.todoList-task:hover{
+  background-color: rgba(254,253,255,0.32);
+}
+ .todoList-task .buttonDelete{
+   width: 30px;
+   height: 20px;
+   border-radius: 50%;
+ }
+ .buttonDelete:hover{
+  background-color: #18004f;
+}
+.todoList-task__checkbox{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.todoList-task_input{
+  cursor: text;
+  background-color: #e7c8ff;
+  height: 25px;
+}
 
 .todoList > div {
   padding: 10px;
 }
 
-.filter-active {
+.todoList-footer__buttons button{
+  height: 30px;
+  background-color: #caf7ff;
+}
+.todoList-footer__buttons button:hover{
+  background-color: #9a3fff;
+}
+.todoList-footer__buttons button.filter-active {
   background-color: blue;
 }
-
-.error {
-  border-color: red;
+.todoList-footer{
+  width: 100%;
+}
+.todoList-footer__show-hide{
+  margin-top: 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  color: #06003e;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todoList-footer__show-hide:hover{
+ background-color: rgba(255,254,255,0.53);
 }
 
-.decorationInput{
+.todoList-header__title input, .decorationInput{
+  border: 3px solid #6e0c80;
   outline:none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  caret: #6e0c80;
+}
+.newItemForm button{
+  height: 30px;
+  width: 60px;
+}
+.newItemForm button:hover{
+  background-color: #ffadd0;
+}
+
+.todoList-footer__buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.error {
+  border-color: #ff000d;
 }
 
 .todoList-task.done{

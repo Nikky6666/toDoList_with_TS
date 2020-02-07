@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5229f081-3c64-43e3-8bee-d4b09410ff07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddNewItemForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDoListFooter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDoListTask.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDoListTasks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDoListTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDolist.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todolistAPI.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/util.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommonStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddNewItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddNewItemForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoListFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoListFooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoListTask.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoListTask.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoListTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoListTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web_site/Web-site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Portfolio/portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -109,8 +99,21 @@
       <workItem from="1579006352932" duration="1230000" />
       <workItem from="1579085269683" duration="24000" />
       <workItem from="1579102449104" duration="5048000" />
-      <workItem from="1579172926982" duration="20331000" />
+      <workItem from="1579172926982" duration="22137000" />
+      <workItem from="1579335706088" duration="614000" />
+      <workItem from="1579349889139" duration="54000" />
+      <workItem from="1580045382310" duration="97000" />
+      <workItem from="1580935631232" duration="325000" />
+      <workItem from="1581078703901" duration="6636000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1579199304392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579199304392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
